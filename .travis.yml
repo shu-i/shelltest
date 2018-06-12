@@ -1,5 +1,5 @@
 language: bash
 script:
   - echo shelltest
-  - bash -e ./test-16745203.sh 1
+  - bash -e ./test-16745203.sh
   - ./test-16745203.sh
