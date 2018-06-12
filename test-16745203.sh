@@ -8,8 +8,7 @@ prime="が素数である。"
 # 引数に関する動作チェック 
 ## 引数の数が足りない
 ./16745203.sh > /tmp/$$-ans
-#diff /tmp/$$-ans /tmp/$$-args || exit 1
-diff /tmp/$$-ans /tmp/$$-args
+diff /tmp/$$-ans /tmp/$$-args || exit 1
 
 ## 負の数 
 ./16745203.sh -12 > /tmp/$$-ans
