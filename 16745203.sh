@@ -2,12 +2,12 @@
 
 if [ $# -lt 1 ]; then
   echo "Usage: ./16745203 number"
-  exit -1
+  exit 2
 fi
 
 if [ $1 -le 0 ]; then
   echo "Usage: ./16745203 number"
-  exit -1
+  exit 2
 fi
 
 in=$1
